@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 4rem;
+  color: white;
+  align-items: center;
+  font-family:'Inter', sans-serif;
+}
+.right h1{
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.left{
+    gap: 2em;
+    display: flex;
+    margin-right: 2rem;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+}
+.descrip{
+    margin-left: 4rem;
+    /* margin-top: 2rem; */
+}
+.descrip h1{
+    color: rgb(225, 228, 228);
+    font-size: 5rem;
+     font-family: 'Poppins', sans-serif;
+     padding-top: 1rem;
+}
+.descrip p{
+    margin-top: 2rem;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+.section1{
+            width: 100%;
+            height: 90vh;
+            background: linear-gradient(rgba(10, 9, 9, 0.897),rgba(48, 47, 47, 0.219)),
+            url('./assest/inner-peace-ac-1366x768.jpg');
+            background-size: cover;
+            font-family: sans-serif;
+}
+.descrip button{
+    margin-top: 5rem;
+    padding: 1rem 1rem;
+    border-radius: 29px;
+    border: none;
+    color: white;
+    background-color: #121212;
+}
+.descrip button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: #121212;
+}
