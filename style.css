@@ -175,5 +175,114 @@ span{
 }
 .Btn1 button:hover{
     cursor: pointer;
-    color: #121212;
+    color: #000000;
+    background-color: aliceblue;
+}
+.Btn1 button a:hover{
+    color: #000000;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    margin: 130px 40px;
+}
+legend{
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+    background-color: black;
+    color: azure;
+}
+fieldset{
+    background-color: #142d2e;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    justify-content: ;
+    border-radius: 16px;
+    align-items: center;
+    display: block;
+    box-shadow:  10px 10px 10px black;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+
+}
+fieldset h1{
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 1rem; 
+}
+fieldset h2{
+    margin-top: 1rem;
+    margin-left: 1rem; 
+
+}
+fieldset p{
+    margin-left: 1rem; 
+    margin-top: 1rem;
+}
+.para2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 1rem; 
+
+}
+.para3{
+    font-size: 18px;
+    margin-left: 1rem; 
+    font-weight: bold;
+}
+fieldset a{
+    margin-left: 1rem; 
+    margin-top: 1rem;
+}
+#anc{
+    text-decoration: none;
+    color: #2390ac;
+    font-weight: bold;
+}
+fieldset h1:hover{
+    cursor: pointer;
+    color: #245a5c;
+    margin-left: 2rem;
+
+}
+fieldset h2:hover{
+    cursor: pointer;
+    color: #245a5c;
+}
+fieldset p:hover{
+    cursor: pointer;
+    color: #245a5c;
+}
+#anc:hover{
+    cursor: pointer;
+    text-decoration: darkblue;
+    color: #10777a;
+}
+.Btn2{
+    margin-left: 24rem;
+    margin-top: 1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 16px;
+    background-color: #10777a;
+    color: #000000;
+    box-shadow: 10px 9px 10px black;
+}
+.Btn2 #nn{
+    padding-right: 1rem;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.Btn2:hover{
+    cursor: pointer;
+    background-color: #245a5c;
+    color: white;
+}
+.Btn2 #nn:hover{
+    color: aliceblue
 }
